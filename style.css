@@ -36,3 +36,13 @@
 
     footer {min-height: 7rem;
             background-color: darkorange;}
+
+            /* media queries*/
+
+    @media screen and (max-width: 600px) {
+  body {
+    background-color: rgba(63, 196, 63, 0.863);
+  }
+ main {flex-direction: column;}
+ main div {width: 95%;}
+}
