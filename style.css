@@ -21,7 +21,7 @@ header {
             }
 
 nav     {
-            min-height: 7rem;
+            min-height: 4rem;
             background-color: orange;
             }
 
@@ -78,17 +78,29 @@ footer {min-height: 7rem;
 
             @media screen and (max-width: 650px) {
   body {
-    background-color: rgb(18, 211, 18);
+    background-color: rgb(22, 155, 22);
   }
-          main{ flex-direction: row;
-                 align-items: center;}
+header { display: none;}
 
-          main div {width: 40%;}
+  nav ul {flex-direction: column;}
+  nav ul li {width: 20rem;}
+
+
+  main { flex-direction: row;
+        align-items: center;}
+
+          /*main div {width: 40%;}*/
+          main img {width: 40%;}
 
 }
- @media screen and (max-width: 350px) {
+ @media screen and (max-width: 423px) {
         body{background-color: red;}
-        main div {flex-direction: column;
+        nav ul li {width: 95%;}
+        
+       /* main div {flex-direction: column;
+        width: 95%;}*/
+
+        main img {flex-direction: column;
         width: 95%;}
 
  }
