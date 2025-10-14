@@ -13,29 +13,46 @@
                 margin: 0 auto;}
 
 
-    header { 
+header { 
              min-height: 8rem;
              background-color: darksalmon;
             }
 
-    nav     {
-            min-height: 4rem;
+nav     {
+            min-height: 7rem;
             background-color: orange;
             }
 
-            nav ul {background-color: rgb(233, 211, 10);
-        min-height: 6rem;}
+nav ul {background-color: rgb(233, 211, 10);
+        min-height: 6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;}
 
-        nav ul li{ background-color: blueviolet;
-        min-height: 3.2rem;
-        border: 0.2rem solid black;
+nav ul li{ 
+        /*background-color: rgb(17, 148, 104);*/
+        height: 2.3rem;
+        /*border: 0.2rem solid black;*/
         margin: 0.3rem;
         width: 7rem;}
 
-        nav ul li a {color: aliceblue;}
+nav ul li a {color: aliceblue;
+        background-color:red;
+        display: block;
+        height: 2.3rem;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.2rem;
+        font-weight: 900;
+        font-style: italic;
+        border-radius: 0.6rem;}
+
+ nav ul li a:hover {color: red;
+        background-color: aliceblue;
+        transition: 2s;}
             
 
-    main {min-height: 20rem;
+main {min-height: 20rem;
             background-color: lightblue;
             display: flex;
             flex-wrap: wrap;
