@@ -23,6 +23,18 @@
             background-color: orange;
             }
 
+            nav ul {background-color: rgb(233, 211, 10);
+        min-height: 6rem;}
+
+        nav ul li{ background-color: blueviolet;
+        min-height: 3.2rem;
+        border: 0.2rem solid black;
+        margin: 0.3rem;
+        width: 7rem;}
+
+        nav ul li a {color: aliceblue;}
+            
+
     main {min-height: 20rem;
             background-color: lightblue;
             display: flex;
