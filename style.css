@@ -50,10 +50,7 @@
 
           main div {width: 40%;}
 
-
 }
-
-
  @media screen and (max-width: 350px) {
         body{background-color: red;}
         main div {flex-direction: column;
