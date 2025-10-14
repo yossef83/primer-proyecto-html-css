@@ -1,5 +1,9 @@
-* {margin: 0;
+ * {margin: 0;
     padding: 0;}
+    ul {list-style: none;
+         margin-left: 0;}
+    a {text-decoration: none;
+       color:black;}     
 
     
        /*   Codigo de la Pagina*/
