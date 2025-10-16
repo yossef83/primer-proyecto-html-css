@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,57 +7,66 @@
     <link rel="stylesheet" href="style.css">
     
 <style>
-
-table, th, td {
-border:1px solid black;
+  h2{margin-top: 3rem;
+  padding-left: 3rem;
 }
+  table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+
+  th, td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color:rgb(246, 255, 127);
+  }
+  tr:hover {
+    background-color: #f0bcbc;
+  }
 </style>
+
 <body>
+<h2>A basic HTML table:</h2>
+<br>
 
-<h2>A basic HTML table</h2>
-
-<table style="width:100%">
-<tr>
-<th>Compana</th>
-<th>Contacto</th>
-<th>Pais</th>
-</tr>
-<tr>
-<td>Alfreds Futterkiste</td>
-<td>Maria Luis</td>
-<td>Espan</td>
-</tr>
-<tr>
-<td>Centro comercial Moctezuma</td>
-<td>Francisco Chang</td>
-<td>Mexico</td>
-</tr>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Ciudad</th>
+      <th>Profecion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ana</td>
+      <td>28</td>
+      <td>Madrid</td>
+      <td>Peluquera</td>
+    </tr>
+    <tr>
+      <td>Luis</td>
+      <td>34</td>
+      <td>Barcelona</td>
+      <td>Arquitecto</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td>19</td>
+      <td>Bilbao</td>
+      <td>Estudiante</td>
+    </tr>
+    <tr>
+      <td>Mirel</td>
+      <td>30</td>
+      <td>Cadiz</td>
+      <td>Camarera</td>
+    </tr>
+  </tbody>
 </table>
-
-<h2>Tabla Border</h2>
-<table style="width:100%">
-  <tr>
-    <th>Name</th>
-    <th>Apidido</th> 
-    <th>Edad</th>
-  </tr>
-  <tr>
-    <td>Juan</td>
-    <td>Loren</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eva</td>
-    <td>Jao</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>laura</td>
-    <td>Doa</td>
-    <td>80</td>
-  </tr>
-</table>
-
-
 </body>
 </html>
