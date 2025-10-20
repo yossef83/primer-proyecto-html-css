@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demostración Background CSS</title>
+
+  <style>
+    body {
+      margin: 0;
+      background-color:rgb(224, 202, 130);
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1.5rem;
+    }
+
+    .color-demo {
+      background-color: #ffcc80;
+      padding: 3rem 1rem;
+    }
+
+    .image-demo {
+      background-image: url('https://picsum.photos/1200/600');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 4rem 1rem;
+    }
+
+caption{ font-size:x-large;
+padding: 0.6rem;
+margin-right: 100%;}
+
+  table {
+    border-collapse: collapse;
+    border-style: double;
+    border-color: blueviolet;
+    min-width: 70%;
+    margin-left: 2.5rem;
+    margin-bottom: 2em;}
+    
+
+  th, td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+  }
+  th {
+    background-color:rgb(246, 255, 127);}
+  tr:hover {
+    background-color: #f0bcbc;
+  }
+footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+    }
+    @media screen and (max-width: 423px) {
+        body, header{background-color: rgb(211, 173, 67);}
+
+ }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Background Color & Background Image</h1>
+  </header>
+
+  <section class="color-demo">
+    <h2>Fondo con Color</h2>
+    <p>Este bloque usa <strong>background-color</strong>.</p>
+  </section>
+
+  <section class="image-demo">
+    <h2>Fondo con Imagen</h2>
+    <p>Este bloque usa <strong>background-image</strong> con propiedades adicionales.</p>
+  </section>
+  <h2>Basic HTML Table:</h2>
+  <br>
+<table>
+  <caption>Tabla:</caption>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Ciudad</th>
+      <th>Profesion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ana</td>
+      <td>28</td>
+      <td>Madrid</td>
+      <td>Peluquera</td>
+    </tr>
+    <tr>
+      <td>Luis</td>
+      <td>34</td>
+      <td>Barcelona</td>
+      <td>Arquitecto</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td>19</td>
+      <td>Bilbao</td>
+      <td>Estudiante</td>
+    </tr>
+    <tr>
+      <td>Mare</td>
+      <td>30</td>
+      <td>Cadiz</td>
+      <td>Camarera</td>
+    </tr>
+  </tbody>
+</table>
+
+  <footer>
+    <p>Demostración CSS — Bootcamp Full Stack</p>
+  </footer>
+</body>
+</html>
